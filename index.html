@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="page.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo app</title>
+</head>
+<body>
+    <div class="container">
+        <div class="input-ui">
+           <h3>Todo List</h3>
+           <form class="form">
+           <input type="text" placeholder="task name" class="input-task"/>   
+           <input type="submit" value="add">
+         </form>
+        </div>
+
+        <div class="output-ui">
+            <input type="text" name="filter" class="filter" placeholder="search task">
+            <label for="filter">🔎</label>
+            <ul class="tasks">
+               <!-- <li class="task">
+                    text 
+                    <div class="icon">
+                        <a href="#" class="delete">🛑</a>
+                        <a href="#" class="done">✅</a>
+                    </div>
+                </li>-->
+            
+            <div class="msg">
+                <p>Start adding tasks👋</p>
+            </div>
+            </ul>
+
+             <a href="" class="clear-task">Clear</a>
+
+        </div>
+    </div>
+    <script src="page.js"></script>
+</body>
+</html>
